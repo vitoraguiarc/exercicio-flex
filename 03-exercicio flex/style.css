@@ -65,7 +65,11 @@
 
 .exer07{
     align-items: center;
-    flex-direction: initial;
+    justify-content: flex-end;
+}
+
+.exer07 div:nth-child(1){
+    margin-right: auto;
 }
 
 .exer08{
@@ -74,7 +78,12 @@
 }
 
 .exer09{
-
+    align-items: flex-end;
+    flex-direction: column;
+}
+.exer09 div:nth-child(3){
+    align-self: stretch;
+    background-color: #ffa899;
 }
 
 .exer10{
@@ -82,5 +91,27 @@
 }
 
 .exer11{
-    align-items: unset
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exer12{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exer12 div:nth-child(odd){
+    background-color: #ffa899;
+    flex-grow: 1;
+}
+
+.exer13{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exer13 div:nth-child(odd){
+    background-color: #ffa899;
+    width: 50%;
+    flex-grow: 1;
 }
